@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img">
+<rect x="0.0" y="0.0" width="291.0" height="74.0" rx="8" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="4.0" height="74.0" rx="2" fill="#0969da"/>
+<text x="16.0" y="36.0" font-size="24" fill="#0969da" text-anchor="start" font-weight="700">10</text>
+<text x="16.0" y="58.0" font-size="12" fill="#59636e" text-anchor="start">Go services</text>
+<rect x="303.0" y="0.0" width="291.0" height="74.0" rx="8" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<rect x="303.0" y="0.0" width="4.0" height="74.0" rx="2" fill="#1a7f37"/>
+<text x="319.0" y="36.0" font-size="24" fill="#1a7f37" text-anchor="start" font-weight="700">3</text>
+<text x="319.0" y="58.0" font-size="12" fill="#59636e" text-anchor="start">Next.js apps</text>
+<rect x="606.0" y="0.0" width="291.0" height="74.0" rx="8" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<rect x="606.0" y="0.0" width="4.0" height="74.0" rx="2" fill="#8250df"/>
+<text x="622.0" y="36.0" font-size="24" fill="#8250df" text-anchor="start" font-weight="700">17 · 132</text>
+<text x="622.0" y="58.0" font-size="12" fill="#59636e" text-anchor="start">schemas · tables</text>
+<rect x="909.0" y="0.0" width="291.0" height="74.0" rx="8" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<rect x="909.0" y="0.0" width="4.0" height="74.0" rx="2" fill="#8250df"/>
+<text x="925.0" y="36.0" font-size="24" fill="#8250df" text-anchor="start" font-weight="700">73</text>
+<text x="925.0" y="58.0" font-size="12" fill="#59636e" text-anchor="start">foreign keys</text>
+<rect x="0.0" y="90.0" width="291.0" height="74.0" rx="8" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<rect x="0.0" y="90.0" width="4.0" height="74.0" rx="2" fill="#6e7781"/>
+<text x="16.0" y="126.0" font-size="24" fill="#6e7781" text-anchor="start" font-weight="700">21</text>
+<text x="16.0" y="148.0" font-size="12" fill="#59636e" text-anchor="start">containers in the retired production stack</text>
+<rect x="303.0" y="90.0" width="291.0" height="74.0" rx="8" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<rect x="303.0" y="90.0" width="4.0" height="74.0" rx="2" fill="#bc4c00"/>
+<text x="319.0" y="126.0" font-size="24" fill="#bc4c00" text-anchor="start" font-weight="700">2 + 1</text>
+<text x="319.0" y="148.0" font-size="12" fill="#59636e" text-anchor="start">marketplaces live · Lazada built, not live</text>
+<rect x="606.0" y="90.0" width="291.0" height="74.0" rx="8" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<rect x="606.0" y="90.0" width="4.0" height="74.0" rx="2" fill="#bc4c00"/>
+<text x="622.0" y="126.0" font-size="24" fill="#bc4c00" text-anchor="start" font-weight="700">16</text>
+<text x="622.0" y="148.0" font-size="12" fill="#59636e" text-anchor="start">courier codes via Parcel Daily</text>
+<rect x="909.0" y="90.0" width="291.0" height="74.0" rx="8" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="1"/>
+<rect x="909.0" y="90.0" width="4.0" height="74.0" rx="2" fill="#1a7f37"/>
+<text x="925.0" y="126.0" font-size="24" fill="#1a7f37" text-anchor="start" font-weight="700">123 / 345</text>
+<text x="925.0" y="148.0" font-size="12" fill="#59636e" text-anchor="start">smoke requests / assertions, all passing</text>
+</svg>

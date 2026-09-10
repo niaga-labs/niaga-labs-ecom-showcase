@@ -12,6 +12,11 @@
 | **Visibility** | 18 of 21 repos are private. Two shared libraries and the org profile are public |
 | **Public face** | [github.com/niaga-labs](https://github.com/niaga-labs) · [`lib-common`](https://github.com/niaga-labs/lib-common) · [`lib-ui`](https://github.com/niaga-labs/lib-ui) |
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg" />
+  <img src="assets/stats-light.svg" width="100%" alt="Key numbers" />
+</picture>
+
 ## Why
 
 The factory needed to sell the same stock through its own storefront and through Shopee, TikTok Shop and Lazada without three disconnected back offices or double-counted inventory. Orders had to land in one place regardless of channel, stock had to reserve correctly across all of them, and a factory-direct fulfilment model had to work end to end before any of it could be automated further. The platform is now being pointed at a factory-direct dropship store first. Selling it to other companies is parked until that store has real sales.
@@ -58,6 +63,12 @@ flowchart LR
     ADMIN --> ORD & CAT & INV & CUST & SUP & RPT
     ORD -. tracking .-> WH
 ```
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/code-map-dark.svg" />
+  <img src="assets/code-map-light.svg" width="100%" alt="Lines of code per repository" />
+</picture>
+*Figure 1. Where the code is: lines of tracked source per repository, from the public org profile's count.*
 
 **Ten backend services**
 
@@ -126,6 +137,12 @@ A marketplace order is normalised through one internal client so it lands as an 
 - **An honest rebrand.** Renaming the brand was nearly finished, but the domain model underneath still carried 8 apparel-specific tables, 22 columns and roughly 300 files touching tailoring, fabric and measurement concepts. Whether to generalise further was left open, with the real cost written down first.
 - **An AI operating layer for the workspace itself.** Per-repo Claude Code memory, rules and guard hooks, including one that blocks bulk edits to migration files, so an autonomous coding session can pick up bounded units safely across 19 repos.
 - **A Bruno smoke suite as the gate.** One collection per HTTP service, run before every demo, and the thing that tells a dead process apart from a genuinely broken endpoint.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/patterns-dark.svg" />
+  <img src="assets/patterns-light.svg" width="100%" alt="Enterprise patterns in lib-common" />
+</picture>
+*Figure 2. The resilience and messaging patterns every service imports from the public lib-common library.*
 
 ## What is deliberately not claimed
 
