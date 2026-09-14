@@ -10,7 +10,7 @@
 | **Period** | 2023 → 2026 as *Desa Murni Batik*, renamed **Niaga** in 2026 |
 | **Ran in production** | On a single VPS, 21 Docker containers, serving the factory's retail and marketplace operations. That deployment is now retired. The code is actively maintained and runs end to end on a local stack |
 | **Visibility** | 18 of 21 repos are private. Two shared libraries and the org profile are public |
-| **Public face** | [github.com/niaga-labs](https://github.com/niaga-labs) · [`lib-common`](https://github.com/niaga-labs/lib-common) · [`lib-ui`](https://github.com/niaga-labs/lib-ui) |
+| **Public face** | [github.com/niaga-labs](https://github.com/niaga-labs) · [`lib-common`](https://github.com/niaga-labs/niaga-labs-ecom-lib-common) · [`lib-ui`](https://github.com/niaga-labs/niaga-labs-ecom-lib-ui) |
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg" />
@@ -87,7 +87,7 @@ flowchart LR
 
 **Three frontends** on Next.js 14: the public storefront, the back-office admin (the largest repo by code and history), and a warehouse picking PWA that is honestly documented as a mock.
 
-**Two public shared libraries:** [`lib-common`](https://github.com/niaga-labs/lib-common) (Go: config, DB, NATS, auth middleware, transactional outbox, saga, circuit breaker, bulkhead, retry, event catalog) and [`lib-ui`](https://github.com/niaga-labs/lib-ui) (shared React components).
+**Two public shared libraries:** [`lib-common`](https://github.com/niaga-labs/niaga-labs-ecom-lib-common) (Go: config, DB, NATS, auth middleware, transactional outbox, saga, circuit breaker, bulkhead, retry, event catalog) and [`lib-ui`](https://github.com/niaga-labs/niaga-labs-ecom-lib-ui) (shared React components).
 
 **Data and infra:** one PostgreSQL 16 database with 17 schemas, schema-per-service isolation. A Docker Compose stack with nginx, NATS, MinIO, Meilisearch, Jaeger and Rembg. A Bruno smoke collection per HTTP service, run before every demo.
 
@@ -166,7 +166,7 @@ Wholesale tiered pricing, multi-outlet stock and push notifications are not buil
 
 | Layer | Technology |
 |---|---|
-| Backend | Go 1.24, Gin, GORM |
+| Backend | Go 1.25, Gin, GORM |
 | Frontend | Next.js 14 App Router, TypeScript, Tailwind CSS, shadcn/ui, Zustand, Framer Motion |
 | Database | PostgreSQL 16, Redis 7 |
 | Events | NATS JetStream, transactional outbox, durable consumers |
